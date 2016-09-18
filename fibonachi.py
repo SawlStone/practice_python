@@ -16,12 +16,12 @@ def fibon():
     x = 0
     y = 1
     for i in range(100000):
-            x, y = y, x + y
-            if len(str(y)) == 1000:
-                print(y)
-                ak = str(y)
-                print(len(ak))
-                break
+        x, y = y, x + y
+        if len(str(y)) == 1000:
+            print(y)
+            ak = str(y)
+            print(len(ak))
+            break
 
 import time
 def timer(f):
